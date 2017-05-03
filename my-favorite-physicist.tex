@@ -1,7 +1,62 @@
-\documentclass[12pt]{article}
-\usepackage{amsmath}
-\usepackage{amsfonts}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Wenneker Article
+% LaTeX Template
+% Version 2.0 (28/2/17)
+%
+% This template was downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Vel (vel@LaTeXTemplates.com)
+% Frits Wenneker
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt, a4paper, twocolumn]{article}
+
+\input{structure.tex} % Specifies the document structure and loads requires packages
+
+%----------------------------------------------------------------------------------------
+%	ARTICLE INFORMATION
+%----------------------------------------------------------------------------------------
+
+\title{My favorite physicist} % The article title
+
+\author{
+	\authorstyle{Group for Lasers and Plasmas\textsuperscript{$\ast,\dagger,\ddagger$}} % Authors
+	\newline\newline % Space before institutions
+	\textsuperscript{$\ast$}\institution{Institute for Plasmas and Nuclear Fusion}\\
+	\textsuperscript{$\dagger$}\institution{Instituto Superior Técnico, Lisboa}\\
+	\textsuperscript{$\ddagger$}\institution{\url{http://epp.ist.utl.pt/}}
+}
+
+
+\date{May 5, 2017}
+%----------------------------------------------------------------------------------------
+
+
 \begin{document}
 
-$\mathfrak{H}$ello world!
+\maketitle % Print the title
+
+\thispagestyle{firstpage} % Apply the page style for the first page (no headers and footers)
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT
+%----------------------------------------------------------------------------------------
+
+\lettrineabstract{This is a small example of a showcase for a session on git/github. The main idea is to use some resources available only and add a section of one famous physicist. You can even use pictures of equations or something you associate with this person. It does not matter for now. Just use some reference if you are copying something. Everyone likes to be acknowledged.}
+
+%----------------------------------------------------------------------------------------
+%	ARTICLE CONTENTS
+%----------------------------------------------------------------------------------------
+\input{content/instruction.tex}
+
 \end{document}
