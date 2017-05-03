@@ -1,6 +1,6 @@
 # My favorite physicists
 
-Status: [![Build Status](https://travis-ci.org/ahelm/my-favorite-physicist.svg?branch=master)](https://travis-ci.org/ahelm/my-favorite-physicist)
+[![Build Status](https://travis-ci.org/ahelm/my-favorite-physicist.svg?branch=master)](https://travis-ci.org/ahelm/my-favorite-physicist)
 
 This is a small demo example project meant as an introduction to help physicists
 work with git/github. It is designed to write a small article including a
