@@ -8,7 +8,7 @@ script:
 notifications:
   email:
     recipients:
-      - latex3-commits@tug.org
+      - ahelm@ipfn.tecnico.ulisboa.pt
     on_success: change
     on_failure: always
     on_start:   never
