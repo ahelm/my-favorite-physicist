@@ -1,7 +1,7 @@
 dist: trusty
 sudo: required
 before_install:
-- "sudo apt-get update && sudo apt-get install --no-install-recommends texlive-fonts-recommended texlive-latex-extra texlive-fonts-extra texlive-latex-recommended dvipng"
+- "sudo apt-get update && sudo apt-get install --no-install-recommends texlive-fonts-recommended texlive-latex-extra texlive-fonts-extra texlive-latex-recommended dvipng latex-xcolor"
 script:
 - mkdir _build
 - pdflatex -halt-on-error -output-directory _build my-favorite-physicist.tex
